@@ -18,6 +18,8 @@
 		53D565D22746B8E40090D6D7 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D565D12746B8E40090D6D7 /* AddItemVC.swift */; };
 		53D565D52746DD250090D6D7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D565D42746DD250090D6D7 /* UIView+Ext.swift */; };
 		53D565D72746E7440090D6D7 /* CheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D565D62746E7440090D6D7 /* CheckCell.swift */; };
+		53D565DB274907490090D6D7 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D565DA274907490090D6D7 /* UITextField+Ext.swift */; };
+		53D565DD2751385D0090D6D7 /* AddItemFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D565DC2751385D0090D6D7 /* AddItemFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		53D565D12746B8E40090D6D7 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
 		53D565D42746DD250090D6D7 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		53D565D62746E7440090D6D7 /* CheckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCell.swift; sourceTree = "<group>"; };
+		53D565DA274907490090D6D7 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		53D565DC2751385D0090D6D7 /* AddItemFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				53D565C527443DE20090D6D7 /* MainTableView.swift */,
+				53D565DC2751385D0090D6D7 /* AddItemFormView.swift */,
 				53D565D62746E7440090D6D7 /* CheckCell.swift */,
 			);
 			path = View;
@@ -118,6 +123,7 @@
 			children = (
 				53D565CF2746ADA00090D6D7 /* Constants.swift */,
 				53D565D42746DD250090D6D7 /* UIView+Ext.swift */,
+				53D565DA274907490090D6D7 /* UITextField+Ext.swift */,
 			);
 			path = "Extensions+Utilities";
 			sourceTree = "<group>";
@@ -193,12 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53D565D52746DD250090D6D7 /* UIView+Ext.swift in Sources */,
+				53D565DB274907490090D6D7 /* UITextField+Ext.swift in Sources */,
 				53D565CC2744EE160090D6D7 /* MainVC.swift in Sources */,
 				53D565AE2742F4650090D6D7 /* AppDelegate.swift in Sources */,
 				53D565D72746E7440090D6D7 /* CheckCell.swift in Sources */,
 				53D565CE2744FA960090D6D7 /* NavigationController.swift in Sources */,
 				53D565C627443DE20090D6D7 /* MainTableView.swift in Sources */,
 				53D565B02742F4650090D6D7 /* SceneDelegate.swift in Sources */,
+				53D565DD2751385D0090D6D7 /* AddItemFormView.swift in Sources */,
 				53D565D02746ADA00090D6D7 /* Constants.swift in Sources */,
 				53D565D22746B8E40090D6D7 /* AddItemVC.swift in Sources */,
 			);

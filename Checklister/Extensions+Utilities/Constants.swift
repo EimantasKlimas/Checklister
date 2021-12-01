@@ -12,4 +12,8 @@ struct Constants {
         static let left = "LeftPlaceholder"
         static let right = "RightPlaceholder"
     }
+    
+    struct placeholder {
+        static let itemName = "Name of the item"
+    }
 }
